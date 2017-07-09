@@ -1,0 +1,4 @@
+scrapinghub==2.0.0
+Scrapy==1.4.0
+scrapy-jsonrpc==0.3.0
+shub==2.7.0

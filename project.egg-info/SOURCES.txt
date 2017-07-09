@@ -1,0 +1,16 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+score_crawl/__init__.py
+score_crawl/items.py
+score_crawl/middlewares.py
+score_crawl/pipelines.py
+score_crawl/settings.py
+score_crawl/spiders/__init__.py
+score_crawl/spiders/bet_co_uk.py
+score_crawl/spiders/paddypower_com.py
+score_crawl/spiders/sports_williamhill_com.py
+score_crawl/spiders/sportsbet_com_au.py
