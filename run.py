@@ -52,7 +52,7 @@ def run_spiders():
     print_matrix()
 
 
-schedule.every(5).seconds.do(run_spiders)
+schedule.every(5).minutes.do(run_spiders)
 
 while True:
     schedule.run_pending()

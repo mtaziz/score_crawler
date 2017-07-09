@@ -16,10 +16,8 @@ class BetCoUkSpider(Spider):
 
     def parse(self, response):
         json_data = {}
-        for data in response.css('li'):
-            print("%%%%%%%%%%%%%%%%%", data.extract())
+
         for data in response.css('div.app--market__entry'):
-            print("___________>>>>>>_________", data)
             json_data[data.css('span.app--market__entry__name::text').extract().strip()
             ] = data.css('span.app--market__entry__value::text').extract(
 
